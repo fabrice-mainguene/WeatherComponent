@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="WeatherComponent" uuid="B33927B208A7497BBF0534C37E0089C2" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+</base>
