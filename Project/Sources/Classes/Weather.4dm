@@ -33,7 +33,7 @@ Function _httpRequest($api : Text; $param : Text) : Object
 	
 	var $request:=4D.HTTPRequest.new($url).wait()
 	If (($request.response#Null) && ($request.response.status=200))
-		return {success: True; response: $request.response.body}
+		return {success: True; responses: $request.response.body}
 	Else 
 		return {success: False; response: {}; errors: $request.response.body.error; status: $request.response.status; statusText: $request.response.statusText}
 	End if 
