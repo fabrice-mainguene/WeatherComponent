@@ -3,7 +3,7 @@
 // Wrapper for WeatherAPI.com REST API
 // ----------------------------------
 property _url:="http://api.weatherapi.com/v1"
-property _key:="0069f55b02b6464586b121250222206"
+property _key:=""
 
 Class constructor($key : Text)
 	This._key:=$key#"" ? $key : This._key
